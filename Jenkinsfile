@@ -16,7 +16,7 @@ pipeline {
                             
                             az login
                             az account show
-                            deployment create --name "rg1" --location "West Europe" --template-file /Users/joe/.jenkins/workspace/AzurePipeline1/template.json --parameters /Users/joe/.jenkins/workspace/AzurePipeline1/template.parameters.json
+                            deployment create --name "rg1" --location "West Europe" --template-file ${WORKSPACE}/template.json --parameters ${WORKSPACE}/template.parameters.json
                             
                             
                             
