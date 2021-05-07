@@ -8,6 +8,9 @@
 
       "rgLocation":{
         "value": "West Europe"
+      },
+        "storageAccountName":{
+        "value": "joestorage"
       }
   
   
