@@ -16,6 +16,7 @@ pipeline {
                             
                             az login
                             az account show
+                            ${WORKSPACE}
                             
                             
                             
