@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "rgName":{
-        "value": "RG11"
+        "value": "RG with diployment"
       },
 
       "rgLocation":{
