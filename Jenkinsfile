@@ -16,7 +16,7 @@ pipeline {
                             
                             az login
                             az account show
-                            az deployment create --name "latest" --location "West Europe" --template-file ${WORKSPACE}/template.json --parameters ${WORKSPACE}/template.parameters.json
+                            az deployment create --name "Rg1234" --location "West Europe" --template-file ${WORKSPACE}/template.json --parameters ${WORKSPACE}/template.parameters.json
                             
                             
                             
